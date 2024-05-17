@@ -20,4 +20,17 @@
 	{{ partial "authorbox.html" . }}
 	{{ partial "related.html" . }}
 	{{ partial "comments.html" . }}
+	<!-- <div style="display: flex; justify-content: space-between;">
+		<div class="next-post" style="width: 50%;">
+			{{ if .NextPage }}
+			<a class="link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">« {{ .NextPage.Title | truncate 50 "..." }}</a>
+			{{ end }}
+		</div>
+		
+		<div class="previous-post">
+			{{ if .PrevPage }}
+			<a class="link-reverse" href="{{ .PrevPage.Permalink }}?ref=footer">{{ .PrevPage.Title | truncate 50 "..."}} »</a>
+			{{ end }}
+		</div>
+	</div> -->
 {{ end }}
