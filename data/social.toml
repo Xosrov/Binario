@@ -29,6 +29,12 @@
   weight = 50
 
 [[icons]]
+  id = "cv"
+  url = "%s"
+  icon = "svg/cv.svg"
+  weight = 55
+
+[[icons]]
   id = "pinterest"
   url = "https://www.pinterest.com/%s"
   icon = "svg/pinterest.svg"
